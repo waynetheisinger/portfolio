@@ -98,6 +98,8 @@ body {
 	--code-constant: var(--code-constant-dark);
 	--code-operator: var(--code-operator-dark);
 	--link: var(--link-light);
+
+  --background-image: url('@assets/dark-background.jpg');
 }
 
 :root[data-theme='light'] {
@@ -133,6 +135,8 @@ body {
 	--code-constant: var(--code-constant-light);
 	--code-operator: var(--code-operator-light);
 	--link: var(--link-dark);
+
+  --background-image: url('@assets/light-background.jpg');
 }
 
 .container {

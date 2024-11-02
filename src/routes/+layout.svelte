@@ -32,6 +32,7 @@
 		display: flex;
 		flex-direction: column;
 		transition-duration: 200ms;
+    background-color: var(--background-image);
 
 		letter-spacing: 1px;
 
