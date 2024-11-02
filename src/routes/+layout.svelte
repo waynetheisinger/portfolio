@@ -32,7 +32,10 @@
 		display: flex;
 		flex-direction: column;
 		transition-duration: 200ms;
-    background-color: var(--background-image);
+    background-image: var(--background-image);
+    background-size: cover;
+	  background-position: center;
+	  background-attachment: fixed;
 
 		letter-spacing: 1px;
 
