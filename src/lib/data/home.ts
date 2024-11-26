@@ -8,7 +8,7 @@ export const name = 'Wayne';
 export const lastName = 'Theisinger';
 
 export const description =
-	'"Welcome to my site `Digital Orchid!` I’m a versatile web developer with a knack for solving challenges across frontend, backend, and DevOps. Passionate about crafting clean, scalable solutions, I’ve helped modernize systems, optimize workflows, and deliver impactful projects. Let’s create something amazing together!"';
+	'Welcome! I’m a versatile web developer with a knack for solving challenges across frontend, backend, and DevOps. Passionate about crafting clean, scalable solutions, I’ve helped modernize systems, optimize workflows, and deliver impactful projects. Let’s create something great together!';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/waynetheisinger' },
