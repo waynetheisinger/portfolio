@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="xml.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch1"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#00acd7;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch1"
+       id="linearGradient1"
+       x1="62.077867"
+       y1="245.51467"
+       x2="470.93333"
+       y2="245.51467"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch1"
+       id="linearGradient2"
+       gradientUnits="userSpaceOnUse"
+       x1="62.077867"
+       y1="245.51467"
+       x2="470.93333"
+       y2="245.51467" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch1"
+       id="linearGradient3"
+       gradientUnits="userSpaceOnUse"
+       x1="62.077867"
+       y1="245.51467"
+       x2="470.93333"
+       y2="245.51467" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.18546924"
+     inkscape:cx="986.68655"
+     inkscape:cy="1261.6648"
+     inkscape:window-width="1336"
+     inkscape:window-height="811"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <title
+     id="title1">xml-document</title>
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     style="fill:url(#linearGradient1)"
+     transform="matrix(0.62890612,0,0,0.62890612,134.91494,63.395101)">
+    <g
+       id="icon"
+       fill="#000000"
+       transform="translate(62.077867,42.666667)"
+       style="fill:url(#linearGradient3)">
+      <path
+         d="M 257.92213,0 H 23.255467 V 234.66667 H 65.922133 V 192 169.6 42.666667 H 240.21547 l 81.70666,81.706663 V 169.6 192 234.66667 h 42.66667 v -128 z M 95.936,277.568 65.728,319.33867 35.904,277.568 H 2.3466667 L 47.381333,339.94667 0,405.696 H 34.069333 L 64.298667,362.92267 94.677333,405.696 H 129.472 L 82.389333,340.672 128.93867,277.568 Z m 135.1488,69.03893 c -2.176,6.67734 -4.672,15.31734 -7.50933,25.856 -2.816,-10.66666 -5.312,-19.28533 -7.40267,-25.856 l -22.144,-69.26933 h -42.77333 v 128.128 h 26.66666 V 301.74293 c 2.944,11.05067 5.52534,19.904 7.68,26.60267 l 24.96,77.12 h 24.768 l 25.68534,-79.296 c 2.64533,-8.08533 5.01333,-16.21333 7.04,-24.42667 V 405.4656 h 27.776 v -128.128 h -42.304 z M 324.95147,277.568 v 128.128 h 83.904 v -22.61333 h -55.04 V 277.568 Z"
+         id="XLS"
+         style="fill:url(#linearGradient2)" />
+    </g>
+  </g>
+</svg>
