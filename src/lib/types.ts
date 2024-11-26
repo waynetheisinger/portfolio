@@ -3,7 +3,7 @@ import type { Color } from './utils/colors';
 export enum Platform {
 	GitHub = 'github',
 	StackOverflow = 'stackoverflow',
-	Twitter = 'twitter',
+	BlueSky = 'BlueSky',
 	Linkedin = 'linkedin',
 	Email = 'email',
 	Facebook = 'facebook',
