@@ -11,10 +11,10 @@ export const description =
 	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/waynetheisinger' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://github.com/waynetheisinger'
+		link: 'https://www.linkedin.com/in/wayne-theisinger-a589a212/'
 	},
 	{
 		platform: Platform.BlueSky,
@@ -22,19 +22,15 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		link: 'https://stackoverflow.com/users/1463486/wayne-theisinger'
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'wayne@orchid-interactive.com'
 	},
 	{
 		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
+		link: 'https://www.youtube.com/@waynetheisinger2607'
 	}
 ];
 
