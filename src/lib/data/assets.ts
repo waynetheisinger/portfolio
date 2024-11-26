@@ -8,6 +8,13 @@ const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
 
 const Assets = {
+	Prisma: a('prisma.svg'),
+	Mysql: a('mysql.svg'),
+	Elasticsearch: a('elasticsearch.svg'),
+	Shopify: a('shopify.svg'),
+	Magento: a('magento.svg'),
+	Laravel: a('laravel.svg'),
+	Blade: a('blade.svg'),
 	AWS: a('aws.svg'),
 	Bootstrap: a('bootstrap.svg'),
 	C: a('c.svg'),
@@ -41,6 +48,7 @@ const Assets = {
 	Svelte: a('svelte.png'),
 	ExpressJs: a('express.png'),
 	JavaScript: a('js.png'),
+	Php: a('php.svg'),
 	Fastify: a('fastify.svg', 'fastify-dark.png'),
 	NestJs: a('nest.svg'),
 	Quasar: a('quasar.svg'),
@@ -54,6 +62,8 @@ const Assets = {
 	PostgreSQL: a('postgres.png'),
 	Firebase: a('firebase.png'),
 	Sass: a('sass.png'),
+	Xml: a('xml.svg'),
+	Markdown: a('markdown.svg'),
 	Unknown: a('no-img.svg'),
 	MongoDB: a('mongodb.svg'),
 	Redis: a('redis.svg'),
@@ -65,6 +75,7 @@ const Assets = {
 	AfterEffects: a('after-effects.svg'),
 	Illustrator: a('illustrator.svg'),
 	Nuxt: a('nuxt.png'),
+	Next: a('next.svg'),
 	Vite: a('vite.png'),
 	Vitest: a('vitest.svg'),
 	Jest: a('jest.png'),
