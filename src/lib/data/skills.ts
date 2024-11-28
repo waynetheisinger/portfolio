@@ -19,7 +19,8 @@ const categories = [
 	defineSkillCategory({ name: 'Dev Tools', slug: 'devtools' }),
 	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
 	defineSkillCategory({ name: 'Design', slug: 'design' }),
-	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' })
+	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' }),
+	defineSkillCategory({ name: 'Runtimes', slug: 'runtimes' }),
 ] as const;
 
 const defineSkill = <S extends string>(
@@ -260,15 +261,6 @@ export const items = [
 		category: 'framework'
 	}),
 	defineSkill({
-		slug: 'nodejs',
-		color: 'green',
-		description:
-			'Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. It is an open-source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.',
-		logo: Assets.NodeJs,
-		name: 'Node Js',
-		category: 'framework'
-	}),
-	defineSkill({
 		slug: 'svelte',
 		color: 'orange',
 		description:
@@ -306,6 +298,25 @@ export const items = [
 		logo: Assets.Laravel,
 		name: 'Laravel',
 		category: 'framework'
+	}),
+	// defineSkill express in frameworks
+	defineSkill({
+		slug: 'express',
+		color: 'green',
+		description:
+			'Express.js is a free and open-source web application framework for Node.js. It is designed for building web applications and APIs. It is widely used in the industry and is a popular choice for many developers and organizations.',
+		logo: Assets.ExpressJs,
+		name: 'Express Js',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'nodejs',
+		color: 'green',
+		description:
+			'Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. It is an open-source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.',
+		logo: Assets.NodeJs,
+		name: 'Node Js',
+		category: 'devtools'
 	}),
 	// defineSkill Shopify
 	defineSkill({
