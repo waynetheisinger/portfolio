@@ -43,139 +43,133 @@ export const items = [
 		slug: 'php',
 		color: 'blue',
 		description:
-		 'PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.',
+			'A versatile scripting language optimized for web development, PHP powers diverse applications, from personal blogs to enterprise-scale websites, with speed and flexibility.',
 		logo: Assets.Php,
 		name: 'PHP',
-		category: 'pro-lang'
+		category: 'pro-lang',
 	}),
 	defineSkill({
 		slug: 'js',
 		color: 'yellow',
 		description:
-			'JavaScript is a popular programming language that is used to create interactive effects within web browsers. It is widely used in web development and is an essential part of creating dynamic websites. JavaScript is a versatile language that can be used to create a wide range of applications, from simple web pages to complex web applications.',
+			'JavaScript is a dynamic programming language enabling interactive web experiences, ranging from simple animations to complex web applications.',
 		logo: Assets.JavaScript,
-		name: 'Javascript',
-		category: 'pro-lang'
+		name: 'JavaScript',
+		category: 'pro-lang',
 	}),
 	defineSkill({
 		slug: 'ts',
 		color: 'blue',
 		description:
-		  'TypeScript is a superset of JavaScript that adds static types to the language. It is designed for the development of large applications and transcompiles to JavaScript. TypeScript is developed and maintained by Microsoft and has gained popularity in recent years due to its ability to catch errors at compile time and improve code quality.',
+			'TypeScript enhances JavaScript with static typing, enabling better code quality, error detection, and robust large-scale application development.',
 		logo: Assets.TypeScript,
-		name: 'Typescript',
-		category: 'pro-lang'
+		name: 'TypeScript',
+		category: 'pro-lang',
 	}),
 	defineSkill({
 		slug: 'csharp',
 		color: 'blue',
 		description:
-			'C# is a general-purpose, multi-paradigm programming language developed by Microsoft. It is widely used for developing desktop applications, web applications, and games. C# is known for its simplicity, power, and flexibility, making it a popular choice for many developers and organizations.',
+			'C# is a versatile language by Microsoft, excelling in desktop, web, and game development with its balance of simplicity and power.',
 		logo: Assets.Csharp,
 		name: 'C#',
-		category: 'pro-lang'
+		category: 'pro-lang',
 	}),
 	defineSkill({
 		slug: 'golang',
 		color: 'blue',
 		description:
-		  'Go is an open-source programming language that makes it easy to build simple, reliable, and efficient software. It is designed for ease of use and productivity, and is known for its speed and performance. Go is widely used in the industry and is a popular choice for many developers and organizations.',
+			'Go is a modern, high-performance language designed for simplicity and efficiency, ideal for building scalable and reliable systems.',
 		logo: Assets.Go,
 		name: 'Go',
-		category: 'pro-lang'
+		category: 'pro-lang',
 	}),
 	defineSkill({
 		slug: 'mysql',
 		color: 'blue',
 		description:
-			'MySQL is an open-source relational database management system. It is a popular choice for web applications and is used by many websites and applications to store and manage data. MySQL is known for its speed, reliability, and ease of use. It is widely used in the industry and is a popular choice for many developers and organizations.',
+			'MySQL is a reliable and fast relational database management system, popular for web applications and scalable data solutions.',
 		logo: Assets.Mysql,
 		name: 'MySQL',
-		category: 'db'
+		category: 'db',
 	}),
-	//defineSkill MongoDB
 	defineSkill({
 		slug: 'mongodb',
 		color: 'green',
 		description:
-			'MongoDB is a popular NoSQL database that is known for its flexibility, scalability, and performance. It is a document-oriented database that stores data in JSON-like documents. MongoDB is widely used in the industry and is a popular choice for many developers and organizations.',
+			'MongoDB is a NoSQL database known for its flexibility and scalability, storing data in JSON-like documents for modern applications.',
 		logo: Assets.MongoDB,
 		name: 'MongoDB',
-		category: 'db'
+		category: 'db',
 	}),
-	//defineSkill elasticSearch
 	defineSkill({
 		slug: 'elasticsearch',
 		color: 'green',
 		description:
-			'Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases. As the heart of the Elastic Stack, it centrally stores your data so you can discover the expected and uncover the unexpected.',
+			'Elasticsearch is a powerful distributed search engine that enables real-time data exploration and analysis with unparalleled speed.',
 		logo: Assets.Elasticsearch,
 		name: 'ElasticSearch',
-		category: 'db'
+		category: 'db',
 	}),
-	//defineSkill Redis
 	defineSkill({
 		slug: 'redis',
 		color: 'red',
 		description:
-			'Redis is an open-source, in-memory data structure store used as a database, cache, and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries, and streams.',
+			'Redis is an in-memory data store offering ultra-fast database, caching, and message brokering solutions for high-performance systems.',
 		logo: Assets.Redis,
 		name: 'Redis',
-		category: 'db'
+		category: 'db',
 	}),
-	// defineSkill Laravel Eloquent in ORM
 	defineSkill({
 		slug: 'eloquent',
 		color: 'red',
 		description:
-			'Eloquent is the default ORM that ships with Laravel. It provides a simple ActiveRecord implementation for working with your database. Each database table has a corresponding "Model" which is used to interact with that table. Eloquent makes it easy to perform common database operations without writing SQL queries.',
+			'Eloquent is Laravel’s ORM, simplifying database interactions with an elegant, ActiveRecord-like syntax for rapid development.',
 		logo: Assets.Laravel,
 		name: 'Eloquent',
-		category: 'orm'
+		category: 'orm',
 	}),
-	// defineSkill Magento ORM
 	defineSkill({
 		slug: 'magento-orm',
 		color: 'blue',
 		description:
-			'Magento ORM is an object-relational mapping (ORM) system that allows you to interact with the Magento database using PHP objects. It provides a simple and intuitive way to work with the database, making it easier to perform common database operations without writing SQL queries.',
+			'Magento ORM simplifies database access in Magento applications, enabling intuitive PHP-based interactions without SQL.',
 		logo: Assets.Magento,
 		name: 'Magento ORM',
-		category: 'orm'
+		category: 'orm',
 	}),
-	//defineSkill Prisma ORM
 	defineSkill({
 		slug: 'prisma',
 		color: 'green',
 		description:
-			'Prisma is an open-source database toolkit that simplifies database access for application developers. It provides a type-safe and auto-generated query builder that is tailored to your database schema. Prisma is designed to work with modern databases and is a popular choice for many developers and organizations.',
+			'Prisma provides type-safe database access with a modern query builder tailored to your schema, enhancing developer productivity.',
 		logo: Assets.Prisma,
 		name: 'Prisma',
-		category: 'orm'
+		category: 'orm',
 	}),
 	defineSkill({
 		slug: 'css',
 		color: 'blue',
 		description:
-		  'CSS is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is used to style web pages and user interfaces written in HTML and XHTML. It is widely used in web development and is an essential part of creating visually appealing websites.',
+			'CSS styles the web, enabling rich, responsive designs that transform static HTML into visually engaging user interfaces.',
 		logo: Assets.CSS,
 		name: 'CSS',
-		category: 'markup-style'
+		category: 'markup-style',
 	}),
 	defineSkill({
 		slug: 'html',
 		color: 'orange',
 		description:
-			'HTML is the standard markup language for creating web pages and web applications. It is used to describe the structure of web pages using markup. HTML elements are the building blocks of HTML pages and are represented by tags. HTML tags label pieces of content such as "heading", "paragraph", "table", and so on. Browsers do not display the HTML tags, but use them to render the content of the page.',
+			'HTML is the foundation of the web, structuring content with semantic tags for browsers to render interactive pages.',
 		logo: Assets.HTML,
 		name: 'HTML',
-		category: 'markup-style'
+		category: 'markup-style',
 	}),
 	defineSkill({
 		slug: 'laravel-blade',
 		color: 'red',
 		description:
-			'Laravel Blade is a powerful templating engine that is included with the Laravel framework. It allows you to write clean, readable, and reusable code in your views. Blade templates are compiled into plain PHP code and cached until they are modified, meaning that Blade adds essentially zero overhead to your application.',
+			'Blade is Laravel’s powerful templating engine, streamlining dynamic content generation with clean, reusable syntax.',
 		logo: Assets.Blade,
 		name: 'Laravel Blade',
 		category: 'markup-style',
@@ -184,7 +178,7 @@ export const items = [
 		slug: 'shopify-liquid',
 		color: 'green',
 		description:
-			'Shopify Liquid is a templating language used to build Shopify themes. It is a simple and intuitive language that allows you to create dynamic content for your online store. Liquid is used to load dynamic content on your store pages, such as product information, collections, and blog posts. It is a powerful tool that allows you to customize your store and create a unique shopping experience for your customers.',
+			'Shopify Liquid powers Shopify themes, enabling dynamic, customizable content for unique e-commerce storefronts.',
 		logo: Assets.Shopify,
 		name: 'Shopify Liquid',
 		category: 'markup-style',
@@ -193,7 +187,7 @@ export const items = [
 		slug: 'sass',
 		color: 'pink',
 		description:
-			'Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the scripting language itself. It provides mechanisms such as variables, nesting, and mixins, making it easier to create and maintain CSS stylesheets. Sass is widely used in web development and is an essential part of creating visually appealing websites.',
+			'Sass extends CSS with variables, nesting, and mixins, making stylesheet management efficient and maintainable.',
 		logo: Assets.Sass,
 		name: 'Sass',
 		category: 'markup-style'
@@ -220,406 +214,372 @@ export const items = [
 		slug: 'tailwind',
 		color: 'blue',
 		description:
-			'Tailwind CSS is a utility-first CSS framework that is used to build custom designs without writing any CSS. It provides a set of utility classes that can be used to style your web pages. Tailwind CSS is highly customizable and allows you to create unique designs by combining utility classes. It is widely used in web development and is an essential part of creating visually appealing websites.',
+			'Tailwind CSS offers utility-first classes, enabling rapid development of custom designs without writing CSS from scratch.',
 		logo: Assets.Tailwind,
 		name: 'Tailwind',
-		category: 'markup-style'
+		category: 'markup-style',
 	}),
 	defineSkill({
 		slug: 'postcss',
 		color: 'blue',
 		description:
-			'PostCSS is a tool for transforming CSS with JavaScript plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.',
+			'PostCSS transforms CSS using JavaScript plugins, enabling tasks like linting, variable support, and modern CSS syntax compatibility.',
 		logo: Assets.Postcss,
-		name: 'PostCss',
-		category: 'markup-style'
+		name: 'PostCSS',
+		category: 'markup-style',
 	}),
 	defineSkill({
 		slug: 'bootstrap',
 		color: 'purple',
 		description:
-		 'Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.',
+			'Bootstrap is a responsive CSS framework offering ready-to-use components and design templates for building mobile-first web interfaces.',
 		logo: Assets.Bootstrap,
 		name: 'Bootstrap',
-		category: 'markup-style'
+		category: 'markup-style',
 	}),
 	defineSkill({
 		slug: 'reactjs',
 		color: 'cyan',
 		description:
-			'React.js is a JavaScript library used for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications, as it is optimal for fetching rapidly changing data that needs to be recorded. It is used to handle the view layer for web and mobile apps. React also allows us to create reusable UI components.',
+			'React.js is a JavaScript library for building dynamic user interfaces with reusable components and efficient state management.',
 		logo: Assets.ReactJs,
-		name: 'React Js',
-		category: 'framework'
+		name: 'React JS',
+		category: 'framework',
 	}),
 	defineSkill({
 		slug: 'vuejs',
 		color: 'green',
 		description:
-			'Vue.js is a progressive JavaScript framework used to build interactive web interfaces. It is one of the famous frameworks used to simplify web development. Vue.js is known for its fast performance and the ability to handle complex applications. It is a versatile framework that can be used to build single-page applications and large-scale applications.',
+			'Vue.js is a progressive JavaScript framework known for simplicity and performance, ideal for creating interactive web applications.',
 		logo: Assets.VueJs,
-		name: 'Vue Js',
-		category: 'framework'
+		name: 'Vue JS',
+		category: 'framework',
 	}),
 	defineSkill({
 		slug: 'svelte',
 		color: 'orange',
 		description:
-			'Svelte is a modern JavaScript framework used to build fast and interactive web applications. Unlike traditional frameworks, Svelte shifts most of the burden from the browser to the compile step, resulting in highly optimized, vanilla JavaScript code. It offers a truly reactive experience and is known for its simplicity, allowing developers to write less code and achieve better results.',
+			'Svelte shifts heavy processing to the compile step, generating highly optimized JavaScript for fast, reactive web applications.',
 		logo: Assets.Svelte,
 		name: 'Svelte',
-		category: 'framework'
+		category: 'framework',
 	}),
-	// defineSkill Nuxt
 	defineSkill({
 		slug: 'nuxt',
 		color: 'green',
 		description:
-			'Nuxt.js is a free and open-source web application framework based on Vue.js, Node.js, Webpack, and Babel.js. The framework is advertised as a "meta-framework for universal applications". It is a higher-level framework that builds on top of Vue.js and simplifies the development of server-side rendered (SSR) applications.',
+			'Nuxt.js builds on Vue.js, simplifying server-side rendering and static site generation for streamlined development of universal applications.',
 		logo: Assets.Nuxt,
-		name: 'Nuxt Js',
-		category: 'framework'
+		name: 'Nuxt JS',
+		category: 'framework',
 	}),
-	// defineSkill NextJs
 	defineSkill({
 		slug: 'nextjs',
 		color: 'blue',
 		description:
-			'Next.js is a free and open-source React front-end development web framework that enables functionality such as server-side rendering and generating static websites for React based web applications. It is a production-ready framework that allows developers to build static websites and server-side rendered applications using React.',
+			'Next.js extends React with features like server-side rendering and static site generation, ideal for production-ready web applications.',
 		logo: Assets.Next,
-		name: 'Next Js',
-		category: 'framework'
+		name: 'Next JS',
+		category: 'framework',
 	}),
-	// defineSkill Laravel
 	defineSkill({
 		slug: 'laravel',
 		color: 'red',
 		description:
-			'Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern and based on Symfony.',
+			'Laravel is a robust PHP framework that simplifies web application development with an expressive syntax and rich ecosystem.',
 		logo: Assets.Laravel,
 		name: 'Laravel',
-		category: 'framework'
+		category: 'framework',
 	}),
-	// defineSkill express in frameworks
 	defineSkill({
 		slug: 'express',
 		color: 'green',
 		description:
-			'Express.js is a free and open-source web application framework for Node.js. It is designed for building web applications and APIs. It is widely used in the industry and is a popular choice for many developers and organizations.',
+			'Express.js is a minimalist Node.js framework, offering robust tools for building APIs and server-side web applications efficiently.',
 		logo: Assets.ExpressJs,
-		name: 'Express Js',
-		category: 'framework'
+		name: 'Express JS',
+		category: 'framework',
 	}),
 	defineSkill({
 		slug: 'nodejs',
 		color: 'green',
 		description:
-			'Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. It is an open-source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.',
+			'Node.js enables server-side JavaScript execution with its lightweight, event-driven architecture, ideal for scalable network applications.',
 		logo: Assets.NodeJs,
-		name: 'Node Js',
-		category: 'runtimes'
+		name: 'Node JS',
+		category: 'runtimes',
 	}),
-	// defineSkill Shopify
 	defineSkill({
 		slug: 'shopify',
 		color: 'green',
 		description:
-			'Shopify is a popular e-commerce platform that allows you to set up an online store to sell your products. It provides you with a variety of tools and features to help you build and manage your online store. With Shopify, you can create a professional-looking online store without any technical skills or coding knowledge.',
+			'Shopify is a leading e-commerce platform, empowering businesses to create and manage custom online stores with ease.',
 		logo: Assets.Shopify,
 		name: 'Shopify',
-		category: 'ecommerce'
+		category: 'ecommerce',
 	}),
-	// defineSkill Magento
 	defineSkill({
 		slug: 'magento',
 		color: 'blue',
 		description:
-			'Magento is an open-source e-commerce platform that allows you to create a fully customized online store. It provides you with a variety of tools and features to help you build and manage your online store. With Magento, you can create a professional-looking online store that is tailored to your specific needs.',
+			'Magento is a feature-rich e-commerce platform, offering flexibility and scalability for building fully customized online stores.',
 		logo: Assets.Magento,
 		name: 'Magento',
-		category: 'ecommerce'
+		category: 'ecommerce',
 	}),
-	// defineSkill vite in devtools
 	defineSkill({
 		slug: 'vite',
 		color: 'blue',
 		description:
-			'Vite is a build tool that aims to provide a faster and more efficient development experience for modern web projects. It is designed to be fast and lightweight, and is optimized for building web applications using modern JavaScript frameworks and libraries. Vite is widely used in web development and is a popular choice for many developers and organizations.',
+			'Vite is a fast and modern build tool optimized for efficient development and production bundling of web projects.',
 		logo: Assets.Vite,
 		name: 'Vite',
-		category: 'devtools'
+		category: 'devtools',
 	}),
-	// defineSkill codacy in devtools
 	defineSkill({
 		slug: 'codacy',
 		color: 'green',
 		description:
-			'Codacy is an automated code review tool that helps developers to save time in code reviews and to tackle technical debt efficiently. It is widely used in the industry and is a popular choice for many developers and organizations.',
+			'Codacy automates code reviews and helps manage technical debt by providing actionable insights into code quality.',
 		logo: Assets.Codacy,
 		name: 'Codacy',
-		category: 'devtools'
+		category: 'devtools',
 	}),
-	// defineSkill selenium in testing
 	defineSkill({
 		slug: 'selenium',
 		color: 'blue',
 		description:
-			'Selenium is a popular open-source tool for automating web browsers. It provides a set of tools and APIs for automating web applications for testing purposes. Selenium is widely used in the industry and is a popular choice for many developers and organizations.',
+			'Selenium automates browser testing, enabling developers to validate web applications across different browsers and platforms.',
 		logo: Assets.Selenium,
 		name: 'Selenium',
-		category: 'test'
+		category: 'test',
 	}),
-	// defineSkill phpunit in testing
 	defineSkill({
 		slug: 'phpunit',
 		color: 'blue',
 		description:
-			'PHPUnit is a popular testing framework for PHP. It provides a set of tools and APIs for writing and running tests for PHP applications. PHPUnit is widely used in the industry and is a popular choice for many developers and organizations.',
+			'PHPUnit is a testing framework for PHP, streamlining the creation and execution of unit tests to ensure code reliability.',
 		logo: Assets.Phpunit,
 		name: 'PHPUnit',
-		category: 'test'
+		category: 'test',
 	}),
-	// defineSkill pest in testing
 	defineSkill({
 		slug: 'pest',
 		color: 'green',
 		description:
-			'Pest is a delightful PHP Testing Framework with a focus on simplicity. It was carefully crafted to bring the joy of testing to PHP. Pest is a community-driven project that is maintained by Nuno Maduro and a group of contributors.',
+			'Pest is a user-friendly PHP testing framework focused on simplicity, providing a delightful testing experience.',
 		logo: Assets.Pest,
 		name: 'Pest',
-		category: 'test'
+		category: 'test',
 	}),
-	// defineSkill behat in testing
 	defineSkill({
 		slug: 'behat',
 		color: 'blue',
 		description:
-			'Behat is a popular behavior-driven development (BDD) framework for PHP. It provides a set of tools and APIs for writing and running tests in a human-readable format. Behat is widely used in the industry and is a popular choice for many developers and organizations.',
+			'Behat is a PHP framework for behavior-driven development (BDD), enabling human-readable test scenarios for validating application behavior.',
 		logo: Assets.Behat,
 		name: 'Behat',
-		category: 'test'
+		category: 'test',
 	}),
-	// defineSkill nginx in devops
 	defineSkill({
 		slug: 'nginx',
 		color: 'green',
 		description:
-			'Nginx is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server. Nginx is known for its high performance, stability, rich feature set, simple configuration, and low resource consumption.',
+			'Nginx is a high-performance web server and reverse proxy known for its efficiency, scalability, and simple configuration.',
 		logo: Assets.Nginx,
 		name: 'Nginx',
-		category: 'devops'
+		category: 'devops',
 	}),
-	// defineSkill apache in devops
 	defineSkill({
 		slug: 'apache',
 		color: 'green',
 		description:
-			'Apache HTTP Server is a free and open-source cross-platform web server software. It is widely used in the industry and is a popular choice for many developers and organizations.',
+			'Apache HTTP Server is a widely-used, cross-platform web server known for its flexibility and robust feature set.',
 		logo: Assets.Apache,
 		name: 'Apache',
-		category: 'devops'
+		category: 'devops',
 	}),
-	// defineSkill kubernetes in devops
 	defineSkill({
 		slug: 'kubernetes',
 		color: 'blue',
 		description:
-			'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It is designed to work with Docker and other container runtimes, and provides a set of tools and APIs for managing containerized applications in a clustered environment.',
+			'Kubernetes is a powerful container orchestration platform, automating deployment, scaling, and management of containerized applications.',
 		logo: Assets.Kubernetes,
 		name: 'Kubernetes',
-		category: 'devops'
+		category: 'devops',
 	}),
-	// defineSkill docker in devops
 	defineSkill({
 		slug: 'docker',
 		color: 'blue',
 		description:
-			'Docker is an open-source platform for building, shipping, and running applications in containers. It allows you to package your application and its dependencies into a standardized unit for software development. Docker containers are lightweight, portable, and self-sufficient, making them an ideal solution for deploying applications in a consistent and repeatable way.',
+			'Docker simplifies application deployment by packaging code and dependencies into lightweight, portable containers.',
 		logo: Assets.Docker,
 		name: 'Docker',
-		category: 'devops'
+		category: 'devops',
 	}),
-	// defineSkill travisci in devops
 	defineSkill({
 		slug: 'travis-ci',
 		color: 'green',
 		description:
-			'Travis CI is a continuous integration service used to build and test software projects hosted at GitHub and Bitbucket. It is widely used in the industry and is a popular choice for many developers and organizations.',
+			'Travis CI automates testing and deployment for GitHub and Bitbucket projects, streamlining continuous integration workflows.',
 		logo: Assets.Travis,
 		name: 'Travis CI',
-		category: 'devops'
+		category: 'devops',
 	}),
-	// defineSkill github-actions in devops
 	defineSkill({
 		slug: 'github-actions',
 		color: 'green',
 		description:
-			'GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.',
+			'GitHub Actions enables customizable automation of workflows directly within GitHub, including CI/CD for efficient development pipelines.',
 		logo: Assets.GithubActions,
 		name: 'GitHub Actions',
-		category: 'devops'
+		category: 'devops',
 	}),
-	// defineSkill terraform in devops
 	defineSkill({
 		slug: 'terraform',
 		color: 'green',
 		description:
-			'Terraform is an open-source infrastructure as code software tool created by HashiCorp. It enables users to define and provision data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON.',
+			'Terraform automates infrastructure provisioning using code, supporting multi-cloud and on-premises environments with a declarative syntax.',
 		logo: Assets.Terraform,
 		name: 'Terraform',
-		category: 'devops'
+		category: 'devops',
 	}),
-	// defineSkill packer in devops
 	defineSkill({
 		slug: 'packer',
 		color: 'green',
 		description:
-			'Packer is an open-source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel.',
+			'Packer creates machine images for multiple platforms from a single configuration, streamlining infrastructure provisioning.',
 		logo: Assets.Packer,
 		name: 'Packer',
-		category: 'devops'
+		category: 'devops',
 	}),
-	// defineSkill ansible in devops
 	defineSkill({
 		slug: 'ansible',
 		color: 'blue',
 		description:
-			'Ansible is an open-source software provisioning, configuration management, and application-deployment tool. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.',
+			'Ansible automates configuration management, application deployment, and provisioning with simple, agentless operation.',
 		logo: Assets.Ansible,
 		name: 'Ansible',
-		category: 'devops'
+		category: 'devops',
 	}),
-	// defineSkill cloudflare in devops
 	defineSkill({
 		slug: 'cloudflare',
 		color: 'green',
 		description:
-			'Cloudflare is a web infrastructure and website security company that provides content delivery network services, DDoS mitigation, Internet security, and distributed domain name server services.',
+			'Cloudflare enhances web performance and security with CDN services, DDoS protection, and DNS management.',
 		logo: Assets.Cloudflare,
 		name: 'Cloudflare',
-		category: 'devops'
+		category: 'devops',
 	}),
-	// defineSkill Cloudinary in devops
 	defineSkill({
 		slug: 'cloudinary',
 		color: 'blue',
 		description:
-			'Cloudinary is a cloud-based image and video management service. It enables users to upload, store, manage, manipulate, and deliver images and video for websites and apps. Cloudinary provides a comprehensive cloud-based image and video management solution that streamlines media management and delivery.',
+			'Cloudinary simplifies image and video management, offering powerful tools for uploading, transforming, and delivering media efficiently.',
 		logo: Assets.Cloudinary,
 		name: 'Cloudinary',
-		category: 'devops'
+		category: 'devops',
 	}),
-	// defineSkill blackfire in devtools
 	defineSkill({
 		slug: 'blackfire',
 		color: 'green',
 		description:
-			'Blackfire is a performance management platform that helps developers to profile and optimize the performance of their applications. It is widely used in the industry and is a popular choice for many developers and organizations.',
+			'Blackfire optimizes application performance with detailed profiling and insights for faster, more efficient code.',
 		logo: Assets.Blackfire,
 		name: 'Blackfire',
-		category: 'devtools'
+		category: 'devtools',
 	}),
-	// defineSkill ovh in platforms
 	defineSkill({
 		slug: 'ovh',
 		color: 'green',
 		description:
-			'OVHcloud is a global cloud provider that specializes in delivering industry-leading performance and cost-effective solutions to better manage, secure, and scale data. OVHcloud provides a smarter alternative for web hosting, emails, bare metal servers, hosted private cloud, hybrid and public cloud solutions.',
+			'OVHcloud delivers cost-effective cloud solutions for hosting, data storage, and infrastructure scaling.',
 		logo: Assets.Ovh,
 		name: 'OVH',
-		category: 'platforms'
+		category: 'platforms',
 	}),
-	// defineSkill DigitalOcean in platforms
 	defineSkill({
 		slug: 'digitalocean',
 		color: 'blue',
 		description:
-			'DigitalOcean is a cloud infrastructure provider that offers cloud services to help deploy modern apps. DigitalOcean provides developers with cloud services that help to deploy and scale applications that run simultaneously on multiple computers.',
+			'DigitalOcean empowers developers with simple, scalable cloud infrastructure for deploying and managing modern applications.',
 		logo: Assets.DigitalOcean,
 		name: 'DigitalOcean',
-		category: 'platforms'
+		category: 'platforms',
 	}),
-	// defineSkill AWS in platforms
 	defineSkill({
 		slug: 'aws',
 		color: 'orange',
 		description:
-			'Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.',
+			'AWS offers a comprehensive suite of cloud services, enabling scalable, on-demand solutions for diverse computing needs.',
 		logo: Assets.AWS,
 		name: 'AWS',
-		category: 'platforms'
+		category: 'platforms',
 	}),
-	// defineSkill GCP in platforms
 	defineSkill({
 		slug: 'gcp',
 		color: 'blue',
 		description:
-			'Google Cloud Platform, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube.',
+			'Google Cloud Platform provides robust cloud services, leveraging Google’s infrastructure for innovative application development.',
 		logo: Assets.GCP,
 		name: 'GCP',
-		category: 'platforms'
+		category: 'platforms',
 	}),
-	// defineSkill Elk in monitoring
 	defineSkill({
 		slug: 'elk',
 		color: 'green',
 		description:
-			'The ELK Stack is a collection of three open-source products — Elasticsearch, Logstash, and Kibana. It is widely used for centralizing and visualizing logs from multiple sources.',
+			'The ELK Stack combines Elasticsearch, Logstash, and Kibana for centralized logging and insightful data visualization.',
 		logo: Assets.Elk,
 		name: 'ELK',
-		category: 'monitoring'
+		category: 'monitoring',
 	}),
-	// defineSkill Kibana in monitoring
 	defineSkill({
 		slug: 'kibana',
 		color: 'green',
 		description:
-			'Kibana is an open-source data visualization dashboard for Elasticsearch. It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster. Users can create bar, line, and scatter plots, or pie charts and maps on top of large volumes of data.',
+			'Kibana visualizes Elasticsearch data through interactive dashboards, enabling actionable insights from large datasets.',
 		logo: Assets.Kibana,
 		name: 'Kibana',
-		category: 'monitoring'
+		category: 'monitoring',
 	}),
-	// defineSkill Logstash in monitoring
 	defineSkill({
 		slug: 'logstash',
 		color: 'green',
 		description:
-			'Logstash is an open-source data processing pipeline that ingests data from multiple sources, transforms it, and then sends it to a "stash" like Elasticsearch. It is widely used in the industry and is a popular choice for many developers and organizations.',
+			'Logstash processes and transforms data from multiple sources, efficiently routing it to destinations like Elasticsearch.',
 		logo: Assets.Logstash,
 		name: 'Logstash',
-		category: 'monitoring'
+		category: 'monitoring',
 	}),
-	// defineSkill Newrelic in monitoring
 	defineSkill({
 		slug: 'newrelic',
 		color: 'green',
 		description:
-			'New Relic is a software analytics company that makes sense of billions of metrics across millions of apps. It helps the people who build modern software understand the stories their data is trying to tell them.',
+			'New Relic provides real-time performance monitoring and analytics to optimize application performance and user experiences.',
 		logo: Assets.Newrelic,
 		name: 'New Relic',
-		category: 'monitoring'
+		category: 'monitoring',
 	}),
-	// defineSkill prometheus in monitoring
 	defineSkill({
 		slug: 'prometheus',
 		color: 'green',
 		description:
-			'Prometheus is an open-source monitoring and alerting toolkit. It is widely used in the industry and is a popular choice for many developers and organizations.',
+			'Prometheus is a robust toolkit for monitoring and alerting, designed to handle diverse metrics at scale.',
 		logo: Assets.Prometheus,
 		name: 'Prometheus',
-		category: 'monitoring'
+		category: 'monitoring',
 	}),
-	// defineSkill grafana in monitoring
 	defineSkill({
 		slug: 'grafana',
 		color: 'green',
 		description:
-			'Grafana is an open-source platform for monitoring and observability. It allows you to query, visualize, alert on, and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture.',
+			'Grafana visualizes and analyzes metrics across multiple sources, fostering data-driven decision-making through custom dashboards.',
 		logo: Assets.Grafana,
 		name: 'Grafana',
-		category: 'monitoring'
+		category: 'monitoring',
 	}),
-] as const;
+];
 
 export const title = 'Skills';
 
