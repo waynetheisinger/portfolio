@@ -348,6 +348,16 @@ export const items = [
 		name: 'Vite',
 		category: 'devtools'
 	}),
+	// defineSkill codacy in devtools
+	defineSkill({
+		slug: 'codacy',
+		color: 'green',
+		description:
+			'Codacy is an automated code review tool that helps developers to save time in code reviews and to tackle technical debt efficiently. It is widely used in the industry and is a popular choice for many developers and organizations.',
+		logo: Assets.Codacy,
+		name: 'Codacy',
+		category: 'devtools'
+	}),
 	// defineSkill selenium in testing
 	defineSkill({
 		slug: 'selenium',
@@ -398,6 +408,16 @@ export const items = [
 		name: 'Nginx',
 		category: 'devops'
 	}),
+	// defineSkill apache in devops
+	defineSkill({
+		slug: 'apache',
+		color: 'green',
+		description:
+			'Apache HTTP Server is a free and open-source cross-platform web server software. It is widely used in the industry and is a popular choice for many developers and organizations.',
+		logo: Assets.Apache,
+		name: 'Apache',
+		category: 'devops'
+	}),
 	// defineSkill kubernetes in devops
 	defineSkill({
 		slug: 'kubernetes',
@@ -426,6 +446,46 @@ export const items = [
 			'Travis CI is a continuous integration service used to build and test software projects hosted at GitHub and Bitbucket. It is widely used in the industry and is a popular choice for many developers and organizations.',
 		logo: Assets.Travis,
 		name: 'Travis CI',
+		category: 'devops'
+	}),
+	// defineSkill github-actions in devops
+	defineSkill({
+		slug: 'github-actions',
+		color: 'green',
+		description:
+			'GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.',
+		logo: Assets.GithubActions,
+		name: 'GitHub Actions',
+		category: 'devops'
+	}),
+	// defineSkill terraform in devops
+	defineSkill({
+		slug: 'terraform',
+		color: 'green',
+		description:
+			'Terraform is an open-source infrastructure as code software tool created by HashiCorp. It enables users to define and provision data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON.',
+		logo: Assets.Terraform,
+		name: 'Terraform',
+		category: 'devops'
+	}),
+	// defineSkill packer in devops
+	defineSkill({
+		slug: 'packer',
+		color: 'green',
+		description:
+			'Packer is an open-source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel.',
+		logo: Assets.Packer,
+		name: 'Packer',
+		category: 'devops'
+	}),
+	// defineSkill ansible in devops
+	defineSkill({
+		slug: 'ansible',
+		color: 'blue',
+		description:
+			'Ansible is an open-source software provisioning, configuration management, and application-deployment tool. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.',
+		logo: Assets.Ansible,
+		name: 'Ansible',
 		category: 'devops'
 	}),
 ] as const;

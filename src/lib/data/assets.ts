@@ -86,6 +86,12 @@ const Assets = {
 	Behat: a('behat.svg'),
 	Pest: a('pest.svg'),
 	Travis: a('travis.svg'),
+	GithubActions: a('github-actions.svg'),
+	Codacy: a('codacy.svg'),
+	Terraform: a('terraform.svg'),
+	Ansible: a('ansible.svg'),
+	Packer: a('packer.svg'),
+	Apache: a('apache.svg'),
 };
 
 export default Assets;
