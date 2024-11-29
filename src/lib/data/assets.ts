@@ -92,6 +92,9 @@ const Assets = {
 	Ansible: a('ansible.svg'),
 	Packer: a('packer.svg'),
 	Apache: a('apache.svg'),
+	Ovh: a('ovh.svg'),
+	DigitalOcean: a('digitalocean.svg'),
+	GCP: a('gcp.svg'),
 };
 
 export default Assets;

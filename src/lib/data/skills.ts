@@ -488,6 +488,46 @@ export const items = [
 		name: 'Ansible',
 		category: 'devops'
 	}),
+	// defineSkill ovh in platforms
+	defineSkill({
+		slug: 'ovh',
+		color: 'green',
+		description:
+			'OVHcloud is a global cloud provider that specializes in delivering industry-leading performance and cost-effective solutions to better manage, secure, and scale data. OVHcloud provides a smarter alternative for web hosting, emails, bare metal servers, hosted private cloud, hybrid and public cloud solutions.',
+		logo: Assets.Ovh,
+		name: 'OVH',
+		category: 'platforms'
+	}),
+	// defineSkill DigitalOcean in platforms
+	defineSkill({
+		slug: 'digitalocean',
+		color: 'blue',
+		description:
+			'DigitalOcean is a cloud infrastructure provider that offers cloud services to help deploy modern apps. DigitalOcean provides developers with cloud services that help to deploy and scale applications that run simultaneously on multiple computers.',
+		logo: Assets.DigitalOcean,
+		name: 'DigitalOcean',
+		category: 'platforms'
+	}),
+	// defineSkill AWS in platforms
+	defineSkill({
+		slug: 'aws',
+		color: 'orange',
+		description:
+			'Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.',
+		logo: Assets.AWS,
+		name: 'AWS',
+		category: 'platforms'
+	}),
+	// defineSkill GCP in platforms
+	defineSkill({
+		slug: 'gcp',
+		color: 'blue',
+		description:
+			'Google Cloud Platform, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube.',
+		logo: Assets.GCP,
+		name: 'GCP',
+		category: 'platforms'
+	}),
 ] as const;
 
 export const title = 'Skills';
