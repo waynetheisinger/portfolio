@@ -3,7 +3,7 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'degree Communication Media',
+		degree: 'Communication Media',
 		description: 'Grade: 2:1 BA (Hons)',
 		location: 'Maidstone, United Kingdom',
 		logo: Assets.Uca,
