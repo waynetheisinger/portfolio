@@ -316,7 +316,7 @@ export const items = [
 			'Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. It is an open-source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.',
 		logo: Assets.NodeJs,
 		name: 'Node Js',
-		category: 'devtools'
+		category: 'runtimes'
 	}),
 	// defineSkill Shopify
 	defineSkill({
@@ -337,6 +337,56 @@ export const items = [
 		logo: Assets.Magento,
 		name: 'Magento',
 		category: 'ecommerce'
+	}),
+	// defineSkill vite in devtools
+	defineSkill({
+		slug: 'vite',
+		color: 'blue',
+		description:
+			'Vite is a build tool that aims to provide a faster and more efficient development experience for modern web projects. It is designed to be fast and lightweight, and is optimized for building web applications using modern JavaScript frameworks and libraries. Vite is widely used in web development and is a popular choice for many developers and organizations.',
+		logo: Assets.Vite,
+		name: 'Vite',
+		category: 'devtools'
+	}),
+	// defineSkill selenium in testing
+	defineSkill({
+		slug: 'selenium',
+		color: 'blue',
+		description:
+			'Selenium is a popular open-source tool for automating web browsers. It provides a set of tools and APIs for automating web applications for testing purposes. Selenium is widely used in the industry and is a popular choice for many developers and organizations.',
+		logo: Assets.Selenium,
+		name: 'Selenium',
+		category: 'test'
+	}),
+	// defineSkill nginx in devops
+	defineSkill({
+		slug: 'nginx',
+		color: 'green',
+		description:
+			'Nginx is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server. Nginx is known for its high performance, stability, rich feature set, simple configuration, and low resource consumption.',
+		logo: Assets.Nginx,
+		name: 'Nginx',
+		category: 'devops'
+	}),
+	// defineSkill kubernetes in devops
+	defineSkill({
+		slug: 'kubernetes',
+		color: 'blue',
+		description:
+			'Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It is designed to work with Docker and other container runtimes, and provides a set of tools and APIs for managing containerized applications in a clustered environment.',
+		logo: Assets.Kubernetes,
+		name: 'Kubernetes',
+		category: 'devops'
+	}),
+	// defineSkill docker in devops
+	defineSkill({
+		slug: 'docker',
+		color: 'blue',
+		description:
+			'Docker is an open-source platform for building, shipping, and running applications in containers. It allows you to package your application and its dependencies into a standardized unit for software development. Docker containers are lightweight, portable, and self-sufficient, making them an ideal solution for deploying applications in a consistent and repeatable way.',
+		logo: Assets.Docker,
+		name: 'Docker',
+		category: 'devops'
 	}),
 ] as const;
 
