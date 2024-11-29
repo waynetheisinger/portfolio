@@ -488,6 +488,36 @@ export const items = [
 		name: 'Ansible',
 		category: 'devops'
 	}),
+	// defineSkill cloudflare in devops
+	defineSkill({
+		slug: 'cloudflare',
+		color: 'green',
+		description:
+			'Cloudflare is a web infrastructure and website security company that provides content delivery network services, DDoS mitigation, Internet security, and distributed domain name server services.',
+		logo: Assets.Cloudflare,
+		name: 'Cloudflare',
+		category: 'devops'
+	}),
+	// defineSkill Cloudinary in devops
+	defineSkill({
+		slug: 'cloudinary',
+		color: 'blue',
+		description:
+			'Cloudinary is a cloud-based image and video management service. It enables users to upload, store, manage, manipulate, and deliver images and video for websites and apps. Cloudinary provides a comprehensive cloud-based image and video management solution that streamlines media management and delivery.',
+		logo: Assets.Cloudinary,
+		name: 'Cloudinary',
+		category: 'devops'
+	}),
+	// defineSkill blackfire in devtools
+	defineSkill({
+		slug: 'blackfire',
+		color: 'green',
+		description:
+			'Blackfire is a performance management platform that helps developers to profile and optimize the performance of their applications. It is widely used in the industry and is a popular choice for many developers and organizations.',
+		logo: Assets.Blackfire,
+		name: 'Blackfire',
+		category: 'devtools'
+	}),
 	// defineSkill ovh in platforms
 	defineSkill({
 		slug: 'ovh',

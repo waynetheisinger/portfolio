@@ -95,6 +95,9 @@ const Assets = {
 	Ovh: a('ovh.svg'),
 	DigitalOcean: a('digitalocean.svg'),
 	GCP: a('gcp.svg'),
+	Cloudflare: a('cloudflare.svg'),
+	Cloudinary: a('cloudinary.svg'),
+	Blackfire: a('blackfire.svg'),
 };
 
 export default Assets;
