@@ -21,6 +21,7 @@ const categories = [
 	defineSkillCategory({ name: 'Design', slug: 'design' }),
 	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' }),
 	defineSkillCategory({ name: 'Runtimes', slug: 'runtimes' }),
+	defineSkillCategory({ name: 'Monitoring', slug: 'monitoring' }),
 ] as const;
 
 const defineSkill = <S extends string>(
@@ -557,6 +558,66 @@ export const items = [
 		logo: Assets.GCP,
 		name: 'GCP',
 		category: 'platforms'
+	}),
+	// defineSkill Elk in monitoring
+	defineSkill({
+		slug: 'elk',
+		color: 'green',
+		description:
+			'The ELK Stack is a collection of three open-source products — Elasticsearch, Logstash, and Kibana. It is widely used for centralizing and visualizing logs from multiple sources.',
+		logo: Assets.Elk,
+		name: 'ELK',
+		category: 'monitoring'
+	}),
+	// defineSkill Kibana in monitoring
+	defineSkill({
+		slug: 'kibana',
+		color: 'green',
+		description:
+			'Kibana is an open-source data visualization dashboard for Elasticsearch. It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster. Users can create bar, line, and scatter plots, or pie charts and maps on top of large volumes of data.',
+		logo: Assets.Kibana,
+		name: 'Kibana',
+		category: 'monitoring'
+	}),
+	// defineSkill Logstash in monitoring
+	defineSkill({
+		slug: 'logstash',
+		color: 'green',
+		description:
+			'Logstash is an open-source data processing pipeline that ingests data from multiple sources, transforms it, and then sends it to a "stash" like Elasticsearch. It is widely used in the industry and is a popular choice for many developers and organizations.',
+		logo: Assets.Logstash,
+		name: 'Logstash',
+		category: 'monitoring'
+	}),
+	// defineSkill Newrelic in monitoring
+	defineSkill({
+		slug: 'newrelic',
+		color: 'green',
+		description:
+			'New Relic is a software analytics company that makes sense of billions of metrics across millions of apps. It helps the people who build modern software understand the stories their data is trying to tell them.',
+		logo: Assets.Newrelic,
+		name: 'New Relic',
+		category: 'monitoring'
+	}),
+	// defineSkill prometheus in monitoring
+	defineSkill({
+		slug: 'prometheus',
+		color: 'green',
+		description:
+			'Prometheus is an open-source monitoring and alerting toolkit. It is widely used in the industry and is a popular choice for many developers and organizations.',
+		logo: Assets.Prometheus,
+		name: 'Prometheus',
+		category: 'monitoring'
+	}),
+	// defineSkill grafana in monitoring
+	defineSkill({
+		slug: 'grafana',
+		color: 'green',
+		description:
+			'Grafana is an open-source platform for monitoring and observability. It allows you to query, visualize, alert on, and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture.',
+		logo: Assets.Grafana,
+		name: 'Grafana',
+		category: 'monitoring'
 	}),
 ] as const;
 

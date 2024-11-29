@@ -98,6 +98,12 @@ const Assets = {
 	Cloudflare: a('cloudflare.svg'),
 	Cloudinary: a('cloudinary.svg'),
 	Blackfire: a('blackfire.svg'),
+	Elk: a('elk.svg'),
+	Newrelic: a('newrelic.svg'),
+	Kibana: a('elastic-kibana.svg'),
+	Prometheus: a('prometheus.svg'),
+	Grafana: a('grafana.svg'),
+	Logstash: a('elastic-logstash.svg'),
 };
 
 export default Assets;
