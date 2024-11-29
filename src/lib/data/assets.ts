@@ -81,7 +81,11 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Phpunit: a('phpunit.svg'),
+	Behat: a('behat.svg'),
+	Pest: a('pest.svg'),
+	Travis: a('travis.svg'),
 };
 
 export default Assets;

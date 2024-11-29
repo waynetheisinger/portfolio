@@ -358,6 +358,36 @@ export const items = [
 		name: 'Selenium',
 		category: 'test'
 	}),
+	// defineSkill phpunit in testing
+	defineSkill({
+		slug: 'phpunit',
+		color: 'blue',
+		description:
+			'PHPUnit is a popular testing framework for PHP. It provides a set of tools and APIs for writing and running tests for PHP applications. PHPUnit is widely used in the industry and is a popular choice for many developers and organizations.',
+		logo: Assets.Phpunit,
+		name: 'PHPUnit',
+		category: 'test'
+	}),
+	// defineSkill pest in testing
+	defineSkill({
+		slug: 'pest',
+		color: 'green',
+		description:
+			'Pest is a delightful PHP Testing Framework with a focus on simplicity. It was carefully crafted to bring the joy of testing to PHP. Pest is a community-driven project that is maintained by Nuno Maduro and a group of contributors.',
+		logo: Assets.Pest,
+		name: 'Pest',
+		category: 'test'
+	}),
+	// defineSkill behat in testing
+	defineSkill({
+		slug: 'behat',
+		color: 'blue',
+		description:
+			'Behat is a popular behavior-driven development (BDD) framework for PHP. It provides a set of tools and APIs for writing and running tests in a human-readable format. Behat is widely used in the industry and is a popular choice for many developers and organizations.',
+		logo: Assets.Behat,
+		name: 'Behat',
+		category: 'test'
+	}),
 	// defineSkill nginx in devops
 	defineSkill({
 		slug: 'nginx',
@@ -386,6 +416,16 @@ export const items = [
 			'Docker is an open-source platform for building, shipping, and running applications in containers. It allows you to package your application and its dependencies into a standardized unit for software development. Docker containers are lightweight, portable, and self-sufficient, making them an ideal solution for deploying applications in a consistent and repeatable way.',
 		logo: Assets.Docker,
 		name: 'Docker',
+		category: 'devops'
+	}),
+	// defineSkill travisci in devops
+	defineSkill({
+		slug: 'travis-ci',
+		color: 'green',
+		description:
+			'Travis CI is a continuous integration service used to build and test software projects hosted at GitHub and Bitbucket. It is widely used in the industry and is a popular choice for many developers and organizations.',
+		logo: Assets.Travis,
+		name: 'Travis CI',
 		category: 'devops'
 	}),
 ] as const;
