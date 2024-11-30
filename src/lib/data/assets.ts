@@ -104,7 +104,7 @@ const Assets = {
 	Prometheus: a('prometheus.svg'),
 	Grafana: a('grafana.svg'),
 	Logstash: a('elastic-logstash.svg'),
-	Uca: a('uca-logo.png')
+	Uca: a('uca-logo.svg')
 };
 
 export default Assets;
