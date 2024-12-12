@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.cf631669.js";import{g as i}from"./skills.7ef6dfee.js";import{C as o}from"./types.68850f46.js";const s=[{slug:"it-jonction",company:"IT Jonction Lab (Sàrl)",description:`
+import{A as e}from"./UIcon.5de779d8.js";import{g as i}from"./skills.4359eca9.js";import{C as o}from"./types.68850f46.js";const s=[{slug:"it-jonction",company:"IT Jonction Lab (Sàrl)",description:`
 - Led a team of 5 developers, providing technical leadership and mentoring to drive project success.
 - Developed and maintained a range of web applications, e-commerce stores, and mobile solutions for clients in various industries.
 - Optimized system performance and scalability, reducing load times by 40% and improving user experience.
