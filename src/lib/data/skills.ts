@@ -238,6 +238,15 @@ export const items = [
 		category: 'markup-style',
 	}),
 	defineSkill({
+		slug: 'nestjs',
+		color: 'blue',
+		description:
+			'Nest.js is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications with TypeScript.',
+		logo: Assets.NestJs,
+		name: 'NestJs',
+		category: 'framework',
+	}),
+	defineSkill({
 		slug: 'reactjs',
 		color: 'cyan',
 		description:
