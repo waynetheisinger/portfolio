@@ -23,7 +23,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.Contract,
 		type: 'Software Development',
 		location: 'Remote',
-		period: { from: new Date('Sept 2019'), to: new Date() },
+		period: { from: new Date(2019,8), to: new Date() },
 		skills: getSkills(
 			'php','js','ts','golang','mysql','mongodb',
 			'elasticsearch','redis','eloquent','magento-orm',
@@ -67,7 +67,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Norwich, United Kingdom',
-		period: { from: new Date('Apr 2009') , to: new Date('Nov 2018') },
+		period: { from: new Date(2009,3) , to: new Date(2018,10) },
 		skills: getSkills('magento','php','css','html','js','ts','mysql','sass','xml',
 			'markdown','bootstrap','apache','docker','kubernetes',
 			'docker','github-actions','cloudinary','newrelic',

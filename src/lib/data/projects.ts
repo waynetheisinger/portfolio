@@ -8,8 +8,7 @@ export const items: Array<Project> = [
 		color: '#4CAF50',
 		description:
 			'BlockCache is a PHP library that provides a simple and efficient way to cache data using various backends like Redis or Memcached. It offers a straightforward API to store, retrieve, and manage cached data, helping to improve application performance by reducing the need to repeatedly fetch or compute data.',
-		shortDescription:
-			'PHP library for efficient data caching with support for multiple backends.',
+		shortDescription: 'PHP library for efficient data caching with support for multiple backends.',
 		links: [
 			{
 				to: 'https://github.com/waynetheisinger/blockcache',
@@ -19,7 +18,7 @@ export const items: Array<Project> = [
 		],
 		logo: Assets.Laravel,
 		name: 'BlockCache PHP Library',
-		period: { from: new Date('7 July 2024'), to: new Date('30 August 2024') },
+		period: { from: new Date(2024, 6, 7), to: new Date(2024, 7, 30) },
 		skills: getSkills('php', 'redis', 'laravel'),
 		type: 'Library',
 		screenshots: []
@@ -40,7 +39,7 @@ export const items: Array<Project> = [
 		],
 		logo: Assets.NodeJs,
 		name: 'WorkerPOC Node.js',
-		period: { from: new Date('28 September 2023'), to: new Date('8 December 2023') },
+		period: { from: new Date(2023, 8, 28), to: new Date(2023, 11, 8) },
 		skills: getSkills('nodejs', 'redis'),
 		type: 'Application',
 		screenshots: []
@@ -49,7 +48,7 @@ export const items: Array<Project> = [
 		slug: 'beatify',
 		color: '#00BCD4',
 		description:
-			'Beatify is a command-line tool that automates the creation of heartbeats for monitoring cron tasks using the BetterUptime service. It reads the user\'s crontab, presents each cron task for approval to create a heartbeat, calls the BetterUptime API to create the approved heartbeats, and updates the crontab to append a curl request to each approved cron task.',
+			"Beatify is a command-line tool that automates the creation of heartbeats for monitoring cron tasks using the BetterUptime service. It reads the user's crontab, presents each cron task for approval to create a heartbeat, calls the BetterUptime API to create the approved heartbeats, and updates the crontab to append a curl request to each approved cron task.",
 		shortDescription:
 			'CLI tool for automating heartbeat creation for cron task monitoring with BetterUptime.',
 		links: [
@@ -66,7 +65,7 @@ export const items: Array<Project> = [
 		],
 		logo: Assets.Go,
 		name: 'Beatify CLI Tool',
-		period: { from: new Date('6 June 2023'), to: new Date('14 June 2023') },
+		period: { from: new Date(2023, 5, 6), to: new Date(2023, 5, 14) },
 		skills: getSkills('golang'),
 		type: 'Tool',
 		screenshots: [
@@ -86,7 +85,7 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Kubernetes,
 		name: 'Kubernetes Microservices',
-		period: { from: new Date('Sept 2022'), to: new Date('Dec 2022') },
+		period: { from: new Date(2022, 8, 1), to: new Date(2022, 11, 31) },
 		skills: getSkills(
 			'kubernetes',
 			'php',
@@ -110,29 +109,32 @@ export const items: Array<Project> = [
 		]
 	},
 	{
-		slug: "blackfire-labeler",
-		color: "#000000",
-		description: "A utility for labeling transactions with Blackfire and managing associated data in Redis. It includes a task runner, a Blackfire labeler, and a Redis configuration class, designed to operate in isolation to prevent conflicts when invoked from an auto_prepend file.",
-		shortDescription: "Utility for labeling transactions with Blackfire and managing data in Redis.",
+		slug: 'blackfire-labeler',
+		color: '#000000',
+		description:
+			'A utility for labeling transactions with Blackfire and managing associated data in Redis. It includes a task runner, a Blackfire labeler, and a Redis configuration class, designed to operate in isolation to prevent conflicts when invoked from an auto_prepend file.',
+		shortDescription:
+			'Utility for labeling transactions with Blackfire and managing data in Redis.',
 		links: [
 			{
-				to: "https://github.com/waynetheisinger/blackfire-labeler",
-				label: "GitHub Repository",
+				to: 'https://github.com/waynetheisinger/blackfire-labeler',
+				label: 'GitHub Repository',
 				newTab: true
 			},
 			{
-				to: "https://blackfire.io/",
-				label: "Blackfire",
+				to: 'https://blackfire.io/',
+				label: 'Blackfire',
 				newTab: true
 			}
 		],
 		logo: Assets.Blackfire,
-		name: "Blackfire Labeler",
+		name: 'Blackfire Labeler',
 		period: {
-			from: new Date("3 September 2024"), to: new Date("4 September 2024"),
+			from: new Date('3 September 2024'),
+			to: new Date('4 September 2024')
 		},
 		skills: getSkills('php', 'redis', 'blackfire'),
-		type: "DevOps",
+		type: 'DevOps',
 		screenshots: []
 	},
 	{
@@ -145,7 +147,7 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Terraform,
 		name: 'Server Provisioning',
-		period: { from: new Date('Dec 2022'), to: new Date('March 2023') },
+		period: { from: new Date(2022, 11, 1), to: new Date(2023, 2, 31) },
 		skills: getSkills('packer', 'terraform', 'ansible', 'bash', 'digitalocean', 'mysql', 'apache'),
 		type: 'Infrastructure',
 		screenshots: [
@@ -173,7 +175,7 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Magento,
 		name: 'Magento 1 to Magento 2 Migration',
-		period: { from: new Date('Aug 2021'), to: new Date('Nov 2021') },
+		period: { from: new Date(2021, 7, 1), to: new Date(2021, 10, 1) },
 		skills: getSkills('magento', 'nginx', 'elasticsearch', 'mysql', 'html', 'css', 'js'),
 		type: 'Infrastructure',
 		screenshots: [
@@ -201,7 +203,7 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Laravel,
 		name: 'Refactor using Strangler Fig: Vanilla PHP to Laravel',
-		period: { from: new Date('Jan 2024') },
+		period: { from: new Date(2024, 0), to: new Date() },
 		skills: getSkills('laravel', 'php', 'laravel-blade', 'mysql', 'html', 'css', 'js'),
 		type: 'Full Stack',
 		screenshots: [
@@ -225,7 +227,7 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Laravel,
 		name: 'Full set of demo-data for Laravel SaaS application',
-		period: { from: new Date('Feb 2024'), to: new Date('16 Feb 2024') },
+		period: { from: new Date(2024, 1, 1), to: new Date(2024, 1, 16) },
 		skills: getSkills('laravel', 'php', 'mysql'),
 		type: 'Backend',
 		screenshots: [
@@ -249,7 +251,7 @@ export const items: Array<Project> = [
 		links: [],
 		logo: Assets.Docker,
 		name: 'Docker-based Developer Environment with CI/CD Pipeline',
-		period: { from: new Date('Sept 2022'), to: new Date('Jan 2023') },
+		period: { from: new Date(2022, 8), to: new Date(2023, 0) },
 		skills: getSkills('docker', 'php', 'mysql', 'nginx', 'apache', 'redis'),
 		type: 'DevOps',
 		screenshots: []
@@ -260,7 +262,7 @@ export const items: Array<Project> = [
 		description:
 			'Implementation of a CI/CD pipeline for a Node.js application deployed on DigitalOcean App Platform. The pipeline automates testing, builds, and deployments, ensuring a streamlined workflow and consistent delivery. The application leverages MongoDB for data storage, Redis for caching, and NGINX for reverse proxying, providing a scalable and performant solution for web applications.',
 		shortDescription:
-			 'CI/CD Pipeline for a Node.js application deployed on DigitalOcean App Platform.',
+			'CI/CD Pipeline for a Node.js application deployed on DigitalOcean App Platform.',
 		links: [
 			{
 				to: 'https://www.buddl.io/',
@@ -275,7 +277,7 @@ export const items: Array<Project> = [
 		],
 		logo: Assets.DigitalOcean,
 		name: 'CI/CD Pipeline with DigitalOcean App Platform',
-		period: { from: new Date('Sept 2022'), to: new Date('Jan 2023') },
+		period: { from: new Date(2022, 8), to: new Date(2023, 0) },
 		skills: getSkills('docker', 'node', 'mongodb', 'nginx', 'redis'),
 		type: 'DevOps',
 		screenshots: [
@@ -288,7 +290,8 @@ export const items: Array<Project> = [
 				src: '/projects/doapps.png'
 			}
 		]
-	},{
+	},
+	{
 		slug: 'buddl-staging',
 		color: '#00aaff',
 		description:
@@ -309,7 +312,7 @@ export const items: Array<Project> = [
 		],
 		logo: Assets.Kubernetes,
 		name: 'Staging Environment for Buddl in Kubernetes',
-		period: { from: new Date('March 2023') },
+		period: { from: new Date(2023, 2), to: new Date() },
 		skills: getSkills('kubernetes', 'docker', 'nginx', 'node', 'mongodb', 'redis'),
 		type: 'DevOps',
 		screenshots: [
@@ -328,8 +331,7 @@ export const items: Array<Project> = [
 		color: '#FF9800',
 		description:
 			'A Magento module that extends uDropship to receive stock updates via email. It integrates with the Gmail API using OAuth for secure access, allowing automated stock level updates from email data.',
-		shortDescription:
-			'Magento module extending uDropship to receive stock updates via email.',
+		shortDescription: 'Magento module extending uDropship to receive stock updates via email.',
 		links: [
 			{
 				to: 'https://github.com/waynetheisinger/stock_module',
@@ -339,7 +341,7 @@ export const items: Array<Project> = [
 		],
 		logo: Assets.Magento,
 		name: 'uDropship Stock Module for Magento',
-		period: { from: new Date('31 July 2019'), to: new Date('23 September 2019') },
+		period: { from: new Date(2019, 6, 31), to: new Date(2019, 8, 23) },
 		skills: getSkills('magento', 'php', 'mysql'),
 		type: 'Module',
 		screenshots: []
@@ -365,17 +367,17 @@ export const items: Array<Project> = [
 		],
 		logo: Assets.Docker,
 		name: 'Enhanced MariaDB Docker Image',
-		period: { from: new Date('7 January 2019'), to: new Date('24 April 2019') },
+		period: { from: new Date(2019, 0, 7), to: new Date(2019, 3, 24) },
 		skills: getSkills('docker', 'mysql', 'cron', 'logstash', 'elk'),
 		type: 'DevOps',
 		screenshots: []
-	},{
+	},
+	{
 		slug: 'paymentsense-magento',
 		color: '#4CAF50',
 		description:
 			'A fork of the official Paymentsense Magento 1 module that resolves critical bugs and addresses a module conflict issue. This improved version ensures seamless integration of Paymentsense payment services with Magento 1, enhancing reliability and compatibility.',
-		shortDescription:
-			'Fork of Paymentsense Magento 1 module fixing bugs and module conflicts.',
+		shortDescription: 'Fork of Paymentsense Magento 1 module fixing bugs and module conflicts.',
 		links: [
 			{
 				to: 'https://github.com/waynetheisinger/Paymentsense_Magento',
@@ -390,7 +392,7 @@ export const items: Array<Project> = [
 		],
 		logo: Assets.Magento,
 		name: 'Paymentsense Module for Magento 1',
-		period: { from: new Date('30 June 2018'), to: new Date('14 May 2018') },
+		period: { from: new Date(2018, 5, 30), to: new Date(2018, 4, 14) },
 		skills: getSkills('magento', 'paymentsense', 'bug-fixing', 'module-compatibility'),
 		type: 'Module',
 		screenshots: []
